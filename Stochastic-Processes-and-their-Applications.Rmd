@@ -3,8 +3,13 @@ title: "Stochastic Processes and their Applications"
 author: "Nicolas Alberto Tobon"
 date: "2022-12-07"
 output:
-  github_document: default
+  html_document: default
+  
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs", output_file = 'index.html') })
+  
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
