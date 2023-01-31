@@ -1,11 +1,11 @@
-name: "R Publications"
+  name: "R Publications"
   output_dir: "docs"
   navbar:
-    title: "Stochastic Processes and their Applications"
+    title: "R Publications from Nicolas Tobon"
     left:
-    - text: "Home"
+      - text: "Home"
         href: index.html
-    - text: "Stochastic Processes and their Applications"
+      - text: "Stochastic Processes and their Applications"
         href: Stochastic-Processes-and-their-Applications.html
   output:
     html_document:

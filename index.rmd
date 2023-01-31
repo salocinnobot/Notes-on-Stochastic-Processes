@@ -1,5 +1,6 @@
 ---
 title: "Nicolas Tobon's R Publications website"
+knit: (function(inputFile, encoding) {rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs", output_file = 'index.html') })
 ---
 
 Welcome to my personal website, where I've published R code featuring projects from my Data Science/Statistics classes at University of Florida
