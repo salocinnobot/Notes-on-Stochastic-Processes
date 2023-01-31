@@ -1,0 +1,12 @@
+name: "R Publications"
+  output_dir: "docs"
+  navbar:
+    title: "Stochastic Processes and their Applications"
+    left:
+    - text: "Home"
+        href: index.html
+    - text: "Stochastic Processes and their Applications"
+        href: Stochastic-Processes-and-their-Applications.html
+  output:
+    html_document:
+      theme: cosmo
